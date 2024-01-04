@@ -9,4 +9,12 @@ let printName = { (name : String) in
    print("Hello,my name is  \(name)")
 }
 
-sayMyName("baikal")
+printName("Iron man")
+
+
+//замыкания без параметров
+let printNameIronMan = {
+    print("Hello my name is iron man")
+}
+
+printNameIronMan()
